@@ -16,4 +16,4 @@
     </c:forEach>
     </table>
     <br/>
-    <a href="empform">Add New Employee</a>
+    <a href="empform" align="center">Add New Employee</a>

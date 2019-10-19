@@ -1,3 +1,4 @@
+//The model class for employee dtails
 package com.javatpoint.beans;  
   
 public class Emp {  

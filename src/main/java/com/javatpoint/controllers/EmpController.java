@@ -15,7 +15,7 @@ public class EmpController {
     EmpDao dao;//will inject dao from xml file  
       
     /*It displays a form to input data, here "command" is a reserved request attribute 
-     *which is used to display object data into form 
+     *which is used to display object data into form  added by shahin
      */  
     @RequestMapping("/empform")  
     public String showform(Model m){  
@@ -37,6 +37,7 @@ public class EmpController {
         m.addAttribute("list",list);
         return "viewemp";  
     }  
+    //This file is changed
     /* It displays object data into form for the given id.  
      * The @PathVariable puts URL data into variable.*/  
     @RequestMapping(value="/editemp/{id}")  
